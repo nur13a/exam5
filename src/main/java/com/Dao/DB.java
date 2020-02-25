@@ -102,7 +102,18 @@ public class DB {
         }
         return null;
     }
-
+    public boolean deleteUser(int id){
+        String SQL="delete from users where id=?";
+        try (Connection conn = connect();
+             PreparedStatement statement = conn.prepareStatement(SQL);) {
+            statement.setInt(1, id);
+                statement.executeUpdate();
+                return true;
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return false;
+    }
     public List<User> getAllUsers() {
         List<User> list = new ArrayList<>();
         String SQL = "select * from users";
@@ -122,16 +133,5 @@ public class DB {
         return null;
     }
 
-    public boolean deleteUser(int id) {
-        String SQL = "delete from users where id=?";
-        try (Connection conn = connect();
-             PreparedStatement statement = conn.prepareStatement(SQL);) {
-            statement.setInt(1, id);
-            statement.executeUpdate();
-            return true;
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return false;
-    }
+
 }

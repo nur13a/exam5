@@ -13,8 +13,10 @@ public class Server1 {
 DB db=new DB();
     @POST
     @Consumes("application/json")
-    public String add(User u){
+    public String add(User u) throws Exception {
         db.addUser(u);
+        if(u.getBirthDate()>2000)
+            throw new Exception();
         return GetMessage.getMessage(u);
 
     }

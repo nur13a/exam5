@@ -37,4 +37,12 @@ public class Server {
     public User getUserByGender(@PathParam("gender") String gender) {
         return db.getUserByGender(gender);
     }
+
+@GET
+    @Path("/delete{id}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public boolean getUserByGender(@PathParam("id") Integer id) {
+        return db.deleteUser(id);
+    }
+
 }

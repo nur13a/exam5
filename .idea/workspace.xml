@@ -7,19 +7,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f247ae06-4770-468d-b400-355b36155359" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Dao/DB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/GetMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Server/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Server/Server1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="f247ae06-4770-468d-b400-355b36155359" name="Default Changelist" comment="exam 5 final">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/db.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Dao/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Dao/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Server/Server1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Server/Server1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Smart Tomcat.Unnamed">
+  <component name="RunManager" selected="Smart Tomcat.Tomcat">
     <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.31" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -196,7 +189,7 @@
         </option>
       </method>
     </configuration>
-    <configuration name="Unnamed" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
+    <configuration name="Tomcat" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
       <option name="DOC_BASE" value="C:\Users\Nuriza\IdeaProjects\examm5\src\main\webapp" />
       <option name="DOC_MODULE_ROOT" value="" />
       <option name="CONTEXT_PATH" value="/examm5" />
@@ -222,7 +215,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Smart Tomcat.Unnamed" />
+      <item itemvalue="Smart Tomcat.Tomcat" />
       <item itemvalue="Tomcat Server.Unnamed" />
     </list>
   </component>
@@ -285,6 +278,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="exam 5 without checking" />
+    <option name="LAST_COMMIT_MESSAGE" value="exam 5 without checking" />
   </component>
 </project>
